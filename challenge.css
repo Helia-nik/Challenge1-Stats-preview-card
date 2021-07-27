@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.flex-container{
+    background-color:hsl(244, 38%, 16%);
+    margin:10% 15%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em 0.5em;
+}
+.text{
+    float: left;
+    color: white;
+    flex: 1;   
+}
+.pic{
+    width: 540px;
+    height: 445px;
+    background-image: url("img.png") ;
+    background-blend-mode: multiply;
+    background-color:hsl(277, 64%, 61%);
+    flex: 1;
+    border-radius:0em 0.5em 0.5em 0em;
+}
+
+.t1{
+    padding-left: 50px;
+    margin-top: -20px;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+}
+.w{
+    color: hsl(277, 64%, 61%)
+}
+
+.t2{
+    
+    padding-left:50px;
+    font-family: 'Lexend deca', sans-serif;
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+.t3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    font-size: 35px;
+    margin-top: 60px;
+}
+.x{
+    font-size: 30px;
+    display: flex;
+    margin-bottom:-40px;    
+}
+.x1,.x2,.x3{
+    margin: 25px;
+    font-family: "Inter", sans-serif;
+}
+.x2{
+   margin-left: 45px;   
+}
+.x3{
+    margin-left: 55px;
+}
+.y{
+    margin: 25px;
+    font-family: 'Lexend deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    display: flex;
+    font-weight: lighter;
+}
+
+.y2,.y3{
+    margin-left: 50px;
+}
+
